@@ -1,0 +1,12 @@
+spring:
+    profiles:
+      active: dev
+    datasource:
+      url: jdbc:postgresql://ec2-54-235-94-36.compute-1.amazonaws.com:5432/d9o9hjg8lgoid7
+      username: kquzetpxhxbysm
+      password: cba5e8a1b599dd5396930f574d254965bd7521298ac26f7ede7c0cc8e4bc72e7
+    jpa:
+      generate-ddl: true
+    jackson:
+      serialization:
+        write-dates-as-timestamps: false

@@ -1,0 +1,12 @@
+spring:
+    profiles:
+      active: dev
+    datasource:
+      url: jdbc:postgresql://localhost:5432/postgres
+      username: postgres
+      password: postgres
+    jpa:
+      generate-ddl: true
+    jackson:
+      serialization:
+        write-dates-as-timestamps: false
