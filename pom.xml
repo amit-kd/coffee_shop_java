@@ -39,7 +39,7 @@
 			<artifactId>coffee_shop_common</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 			<scope>system</scope>
-			<systemPath>${project.basedir}/src/main/resources/coffee_shop_common-0.0.1-SNAPSHOT.jar</systemPath>
+			<systemPath>${project.basedir}/lib/coffee_shop_common-0.0.1-SNAPSHOT.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.security.oauth</groupId>
